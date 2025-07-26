@@ -12,12 +12,14 @@ class ItemsController {
   }
 
   static update(req, res) {
+    console.log(+req.params.id)
     res.json({
       message: 'Update Item Page'
     })
   }
 
   static delete(req, res) {
+    console.log(+req.params.id)
     res.json({
       message: 'Delete Item Page'
     })
