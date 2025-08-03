@@ -1,5 +1,5 @@
 const itemsRouter = require('express').Router()
-const ItemsController = require('../controllers/ItemsContoller')
+const ItemsController = require('../controllers/ItemsController')
 
 itemsRouter.get('/', ItemsController.getItems)
 itemsRouter.get('/add', ItemsController.add)
